@@ -59,7 +59,7 @@ namespace WindowsFormsApp
 
         private void customerButton1_Click_1(object sender, EventArgs e)
         {
-
+            openChildForm(new ProductForm());
         }
 
         private Form activeForm = null;
@@ -80,6 +80,17 @@ namespace WindowsFormsApp
         private void btnUser_Click(object sender, EventArgs e)
         {
             openChildForm(new UserForm());
+        }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+            openChildForm(new CustomerForm());
+        }
+
+        private void btnCategory_Click(object sender, EventArgs e)
+        {
+            openChildForm(new CategoryForm());
+
         }
     }
 

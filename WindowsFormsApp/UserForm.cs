@@ -71,5 +71,15 @@ namespace WindowsFormsApp
             userModule.ShowDialog();
             LoadUser();
         }
+
+        private void label1_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
