@@ -31,21 +31,21 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductForm));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textSearch = new System.Windows.Forms.TextBox();
             this.btnAdd = new WindowsFormsApp.CustomerButton();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvProduct = new System.Windows.Forms.DataGridView();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Edit = new System.Windows.Forms.DataGridViewImageColumn();
             this.Delete = new System.Windows.Forms.DataGridViewImageColumn();
-            this.textSearch = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnAdd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).BeginInit();
@@ -63,6 +63,26 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1182, 64);
             this.panel1.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Sienna;
+            this.label2.Location = new System.Drawing.Point(407, 18);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(146, 23);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Search book :";
+            // 
+            // textSearch
+            // 
+            this.textSearch.BackColor = System.Drawing.Color.PeachPuff;
+            this.textSearch.Location = new System.Drawing.Point(576, 15);
+            this.textSearch.Name = "textSearch";
+            this.textSearch.Size = new System.Drawing.Size(364, 31);
+            this.textSearch.TabIndex = 4;
+            this.textSearch.TextChanged += new System.EventHandler(this.textSearch_TextChanged);
             // 
             // btnAdd
             // 
@@ -106,8 +126,8 @@
             this.Column8,
             this.Column1,
             this.Column2,
-            this.Column5,
             this.Column6,
+            this.Column5,
             this.Column3,
             this.Column4,
             this.Column7,
@@ -147,6 +167,14 @@
             this.Column2.Name = "Column2";
             this.Column2.Width = 98;
             // 
+            // Column6
+            // 
+            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.Column6.HeaderText = "Year";
+            this.Column6.MinimumWidth = 6;
+            this.Column6.Name = "Column6";
+            this.Column6.Width = 86;
+            // 
             // Column5
             // 
             this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
@@ -154,14 +182,6 @@
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             this.Column5.Width = 75;
-            // 
-            // Column6
-            // 
-            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column6.HeaderText = "Qty Total";
-            this.Column6.MinimumWidth = 6;
-            this.Column6.Name = "Column6";
-            this.Column6.Width = 133;
             // 
             // Column3
             // 
@@ -191,7 +211,7 @@
             this.Edit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Edit.Description = "Edit";
             this.Edit.HeaderText = "Edit";
-            this.Edit.Image = ((System.Drawing.Image)(resources.GetObject("Edit.Image")));
+            this.Edit.Image = global::WindowsFormsApp.Properties.Resources.p3;
             this.Edit.MinimumWidth = 3;
             this.Edit.Name = "Edit";
             this.Edit.Width = 54;
@@ -200,30 +220,10 @@
             // 
             this.Delete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Delete.HeaderText = "Delete";
-            this.Delete.Image = ((System.Drawing.Image)(resources.GetObject("Delete.Image")));
+            this.Delete.Image = global::WindowsFormsApp.Properties.Resources.c3;
             this.Delete.MinimumWidth = 3;
             this.Delete.Name = "Delete";
             this.Delete.Width = 78;
-            // 
-            // textSearch
-            // 
-            this.textSearch.BackColor = System.Drawing.Color.PeachPuff;
-            this.textSearch.Location = new System.Drawing.Point(576, 15);
-            this.textSearch.Name = "textSearch";
-            this.textSearch.Size = new System.Drawing.Size(364, 31);
-            this.textSearch.TabIndex = 4;
-            this.textSearch.TextChanged += new System.EventHandler(this.textSearch_TextChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Sienna;
-            this.label2.Location = new System.Drawing.Point(407, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 23);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Search book :";
             // 
             // ProductForm
             // 
@@ -251,17 +251,17 @@
         private CustomerButton btnAdd;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvProduct;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textSearch;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewImageColumn Edit;
         private System.Windows.Forms.DataGridViewImageColumn Delete;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textSearch;
     }
 }

@@ -506,34 +506,7 @@
   <metadata name="Edit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="Edit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADr4AAA6+AepCscAAAAAHdElNRQfpDBsSLQcem2UnAAAC
-        LElEQVQ4T2NgwAfYuBgqKqsZXP0DGT6FZzCUmdrabrPzvr7W1nNvjKGFyjwrN3QdqKA+KYHB1cmFgdXR
-        gSXfyMrqkL3v8Xdu4f9fuob92WzntTLW0EIFXQ8cuFtYMkjKKjD8//+fobqpJXZ1S+ede16R/7+4hf//
-        4h7x/75z8J+p5k470fWBAUizgpIqw//lcxnK/H3NNlSXnz+5dev/U/3T/j/2ivz/yjnk/0lbn3+TTB2P
-        outFaF41n6Ek0N/sUEXxyXe9rf+v93X8P7l9+//j/VP/73Py/zfLzHFHrIG5HkHN7/vb/7/uafn/orPx
-        /6XO5v8H16/7P6e+5WKYtpFun507cZqfdjT+f9XZ+P98cd7/6empByvqG30ZdLSYbH38iNd8sST//8LY
-        qF1xtraaNw8eYtDWNWAICo9iYDAxMGIQkVVk+L98DmHNjo6ac6IiGNhExBgs9PQhtjMzMIOjqtTP1+xw
-        JX7N86IjGNhllRhsjE0Rfk9MSGTwCY+Un11WfPBZd8v/N6RoBgGQ7f0T+pNOHNz78/jUif8ftjf8f02s
-        ZhAwMrPg27J5w5qXTx/8v3DswP99Xa3/TxblEqcZBGyc3O1Xrlzx9NGtK/8vnzz0f9PSBd9aE+M3JdjZ
-        ac6OCsevGQSUtI0nO3kG/Jo1bfLTxbOnr6ivrYp08vMX31xVzsAgIYNfMwgoaxudVNA0mGduY+9kYGLG
-        ++r+NYaw0FCwnJ4OakrFBgBxO1IsDFAFcQAAAABJRU5ErkJggg==
-</value>
-  </data>
   <metadata name="Delete.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="Delete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADr4AAA6+AepCscAAAAAHdElNRQfpDBsSLQcem2UnAAAA
-        +klEQVQ4T6WTOwoCQRBEjb2DiRoJpnWBTvdw3mITb6CgBopGXsLAA3S4orxhRtphBT9BQVNdXTNdsztw
-        0yBg6KbGTa2bLm7qMqjh6KF5zsThkZsWbrq66f4G9NCgfTGAWLrp1jNUAw3aZFKujesnw9GEmSEG7BWv
-        zc47N50DR73NvcIx02BAONEd4cRNctMpg3rspk2lbTEg4Uge3DTL2cwzqOH2lfZCI16rYO2maXgharha
-        170zOIZblNPhal0yqFcgMHamx96AGi4GC9IKdYi8ACFy6iqDGiMCjtoUYt8zIiTMwlHzAr3P+PeHBP76
-        lKPJzz9Twde/8wNVgRh6weUVrgAAAABJRU5ErkJggg==
-</value>
-  </data>
 </root>

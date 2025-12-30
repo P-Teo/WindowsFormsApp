@@ -147,7 +147,7 @@
             this.Edit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Edit.Description = "Edit";
             this.Edit.HeaderText = "Edit";
-            this.Edit.Image = ((System.Drawing.Image)(resources.GetObject("Edit.Image")));
+            this.Edit.Image = global::WindowsFormsApp.Properties.Resources.p3;
             this.Edit.MinimumWidth = 3;
             this.Edit.Name = "Edit";
             this.Edit.Width = 54;
@@ -156,7 +156,7 @@
             // 
             this.Delete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Delete.HeaderText = "Delete";
-            this.Delete.Image = ((System.Drawing.Image)(resources.GetObject("Delete.Image")));
+            this.Delete.Image = global::WindowsFormsApp.Properties.Resources.c3;
             this.Delete.MinimumWidth = 3;
             this.Delete.Name = "Delete";
             this.Delete.Width = 78;

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductModuleForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBoxClose = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -67,8 +66,8 @@
             // 
             // pictureBoxClose
             // 
-            this.pictureBoxClose.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxClose.Image")));
-            this.pictureBoxClose.Location = new System.Drawing.Point(708, 3);
+            this.pictureBoxClose.Image = global::WindowsFormsApp.Properties.Resources.checkbox_cross_red_icon;
+            this.pictureBoxClose.Location = new System.Drawing.Point(727, 3);
             this.pictureBoxClose.Name = "pictureBoxClose";
             this.pictureBoxClose.Size = new System.Drawing.Size(35, 35);
             this.pictureBoxClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -187,9 +186,9 @@
             this.label3.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(26, 176);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 23);
+            this.label3.Size = new System.Drawing.Size(65, 23);
             this.label3.TabIndex = 17;
-            this.label3.Text = "Quantity :";
+            this.label3.Text = "Year :";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBookName
@@ -223,9 +222,9 @@
             this.label6.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(23, 234);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(162, 23);
+            this.label6.Size = new System.Drawing.Size(106, 23);
             this.label6.TabIndex = 27;
-            this.label6.Text = "Quantity Total :";
+            this.label6.Text = "Quantity :";
             // 
             // textPrice
             // 

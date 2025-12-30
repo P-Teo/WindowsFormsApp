@@ -88,6 +88,18 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderForm.Designer.cs">
+      <DependentUpon>OrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderModuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderModuleForm.Designer.cs">
+      <DependentUpon>OrderModuleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +147,12 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OrderForm.resx">
+      <DependentUpon>OrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderModuleForm.resx">
+      <DependentUpon>OrderModuleForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProductForm.resx">
       <DependentUpon>ProductForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +167,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="UserForm.resx">
       <DependentUpon>UserForm.cs</DependentUpon>
@@ -168,6 +187,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\9269766.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\study-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\business-women-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\checkbox-list-note-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\edit-user-color-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\briefcase-color-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\library.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\p3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\c3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\checkbox-cross-red-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -92,6 +92,11 @@ namespace WindowsFormsApp
             openChildForm(new CategoryForm());
 
         }
+
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+            openChildForm(new OrderForm());
+        }
     }
 
 }
