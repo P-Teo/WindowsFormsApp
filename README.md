@@ -19,9 +19,6 @@ The system supports:
 ## Database
 
 The project uses **SQL Server LocalDB**.  
-The connection string in the project is:
-
-
 
 Tables:
 
@@ -97,11 +94,11 @@ Clone the repository.
 
 Open WindowsFormsApp.sln in Visual Studio 2022 (or later).
 
-Ensure the LocalDB database file (dbLMS.mdf) exists at the path in connection string or update the connection string in LoginForm.cs.
+Ensure the database file (dbLMS.mdf) exists at the path in connection string or update the connection string in LoginForm.cs.
 
 Build and run the project (F5).
 
-Login using a valid username/password from tbUser.
+Login using a valid username/password from tbUser (ex. user:teo, password:1234)
 
 ---
 
