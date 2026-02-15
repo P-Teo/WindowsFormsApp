@@ -43,12 +43,12 @@ tbOrder – Stores order details with product, customer, quantity, and total pri
 - Toggle password visibility.  
 - Clear inputs.  
 - Access granted leads to the main dashboard.  
-<img src="https://github.com/user-attachments/assets/0fd149c0-6151-44c1-93e9-476d835382b7" width="376" />
+<img src="https://github.com/user-attachments/assets/0fd149c0-6151-44c1-93e9-476d835382b7" width="206" />
 
 ### Main Dashboard
 - Navigation buttons for Products, Customers, Categories, Users, Orders.  
 - Child forms load dynamically within the main panel.  
-<img src="https://github.com/user-attachments/assets/4f94a74e-9d94-470c-a8e5-73396da6b2c1" width="600" />
+<img src="https://github.com/user-attachments/assets/4f94a74e-9d94-470c-a8e5-73396da6b2c1" width="400" />
 
 ### Product Management
 - Add, update, delete products.  
